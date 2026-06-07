@@ -1,0 +1,9 @@
+Configurando Ambiente virtual
+
+pip install virtualenv ou pip3 install virtualenv
+
+python -m venv sgbds
+sgbds\Scripts\activate
+
+se der erro ao criar ou ativar, rodar comando abaixo no PowerShell como Admin para liberar scripts locais
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
